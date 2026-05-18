@@ -87,7 +87,7 @@ recipe-finder/
 └── next.config.js
 ```
 
-## 🔌 API Endpoints
+##  API Endpoints
 
 ### GET `/api/recipes/search`
 Busca recetas por ingrediente.
