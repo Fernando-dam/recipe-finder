@@ -1,10 +1,10 @@
-# 🍳 GUÍA COMPLETA: RECIPE FINDER
+#  GUÍA COMPLETA: RECIPE FINDER
 
 > Pasos detallados para ejecutar el Proyecto 1
 
 ---
 
-## 📋 TABLA DE CONTENIDOS
+##  TABLA DE CONTENIDOS
 
 1. [Requisitos previos](#requisitos-previos)
 2. [Descargar el proyecto](#descargar-el-proyecto)
@@ -15,7 +15,7 @@
 
 ---
 
-## ✅ REQUISITOS PREVIOS
+##  REQUISITOS PREVIOS
 
 ### Paso 1: Verificar Node.js
 
@@ -40,7 +40,7 @@ v18.17.0
 
 ---
 
-## 📥 DESCARGAR EL PROYECTO
+##  DESCARGAR EL PROYECTO
 
 ### Opción A: Desde el ZIP descargado
 
@@ -82,7 +82,7 @@ cd ~/Descargas/recipe-finder
 
 ---
 
-## 📦 INSTALAR DEPENDENCIAS
+##  INSTALAR DEPENDENCIAS
 
 ### Paso 1: Abre Terminal en la carpeta del proyecto
 
@@ -123,13 +123,13 @@ added XXX packages in 2m 15s
 
 ### Paso 3: Verifica la instalación
 
-Si todo está bien, continúa al siguiente paso. ✅
+Si todo está bien, continúa al siguiente paso. 
 
 Si hay error, ve a [Solución de problemas](#solución-de-problemas)
 
 ---
 
-## 🚀 EJECUTAR EN DESARROLLO
+##  EJECUTAR EN DESARROLLO
 
 ### Paso 1: Inicia el servidor
 
@@ -160,7 +160,7 @@ Verás algo como esto:
 ✓ Ready in 2s
 ```
 
-**Cuando veas "Ready in..." significa que está listo.** ✨
+**Cuando veas "Ready in..." significa que está listo.** 
 
 ---
 
@@ -170,28 +170,10 @@ Verás algo como esto:
 2. Ve a: `http://localhost:3000`
 3. **Deberías ver:**
 
-```
-╔════════════════════════════════════╗
-║                                    ║
-║       🍳 Recipe Finder             ║
-║                                    ║
-║  Find delicious recipes by         ║
-║  ingredients                       ║
-║                                    ║
-║  ┌──────────────────────────────┐  ║
-║  │ Search by ingredient...      │  ║
-║  │ (e.g., chicken, pizza)       │  ║
-║  │ ┌──────────┐  ┌──────────┐  │  ║
-║  │ │ [input]  │  │ Search   │  │  ║
-║  │ └──────────┘  └──────────┘  │  ║
-║  └──────────────────────────────┘  ║
-║                                    ║
-╚════════════════════════════════════╝
-```
 
 ---
 
-## 💬 USAR LA APLICACIÓN
+##  USAR LA APLICACIÓN
 
 ### Paso 1: Ingresa un ingrediente
 
@@ -222,56 +204,13 @@ En el cuadro de búsqueda, escribe un ingrediente:
 
 Después de 2-3 segundos aparecerán recetas:
 
-```
-╔══════════════════════════════════════════╗
-║                                          ║
-║  ┌──────────────────┐ ┌──────────────┐  ║
-║  │  [IMAGEN]        │ │ [IMAGEN]     │  ║
-║  │  Chicken Handi   │ │ Chicken      │  ║
-║  │  Ver detalles →  │ │ Biryani →    │  ║
-║  └──────────────────┘ └──────────────┘  ║
-║                                          ║
-║  ┌──────────────────┐ ┌──────────────┐  ║
-║  │  [IMAGEN]        │ │ [IMAGEN]     │  ║
-║  │  Chicken Tikka   │ │ Chicken      │  ║
-║  │  Ver detalles →  │ │ Curry →      │  ║
-║  └──────────────────┘ └──────────────┘  ║
-║                                          ║
-╚══════════════════════════════════════════╝
-```
 
----
 
 ### Paso 4: Haz click en una receta
 
 Click en cualquier tarjeta para ver detalles:
 
-```
-╔════════════════════════════════════════╗
-║  ← Back to search                      ║
-║                                        ║
-║  [IMAGEN GRANDE]                       ║
-║                                        ║
-║  Chicken Handi                         ║
-║  Category: Chicken | Cuisine: Indian   ║
-║                                        ║
-║  INGREDIENTES:                         ║
-║  ├─ Ghee ..................... 100g    ║
-║  ├─ Onions .................... 4      ║
-║  ├─ Ginger .................... 2 tbsp ║
-║  └─ ... (más ingredientes)             ║
-║                                        ║
-║  INSTRUCCIONES:                        ║
-║  1. Heat ghee in a handi...           ║
-║  2. Add onions and fry...             ║
-║  ... (más pasos)                       ║
-║                                        ║
-║  [Watch on YouTube]                    ║
-║                                        ║
-╚════════════════════════════════════════╝
-```
 
----
 
 ### Paso 5: Vuelve a buscar
 
@@ -279,7 +218,7 @@ Click "Back to search" para hacer otra búsqueda.
 
 ---
 
-## 📁 ESTRUCTURA DEL PROYECTO
+##  ESTRUCTURA DEL PROYECTO
 
 Esto es lo que verás en la carpeta:
 
@@ -313,7 +252,7 @@ recipe-finder/
 
 ---
 
-## 🔧 EDITAR Y MODIFICAR
+##  EDITAR Y MODIFICAR
 
 ### Ver archivo de búsqueda
 
@@ -349,7 +288,7 @@ app/recipe/[id]/page.tsx  (Detalles de receta)
 
 ---
 
-## 🔄 FLUJO DE LA APLICACIÓN
+##  FLUJO DE LA APLICACIÓN
 
 ```
 1. Usuario ingresa ingrediente en SearchBar
@@ -375,7 +314,7 @@ app/recipe/[id]/page.tsx  (Detalles de receta)
 
 ---
 
-## 🐛 SOLUCIÓN DE PROBLEMAS
+##  SOLUCIÓN DE PROBLEMAS
 
 ### Problema 1: "npm: command not found"
 
@@ -459,7 +398,7 @@ npm install
 
 ---
 
-## 💾 GUARDAR CAMBIOS
+##  GUARDAR CAMBIOS
 
 Después de editar archivos:
 
@@ -471,7 +410,7 @@ NextJS tiene "hot reload" - se actualiza solo.
 
 ---
 
-## 🛑 DETENER EL SERVIDOR
+##  DETENER EL SERVIDOR
 
 Cuando quieras parar la aplicación:
 
@@ -487,7 +426,7 @@ Listo. El servidor se detiene.
 
 ---
 
-## 📊 INFORMACIÓN DE LA API
+## INFORMACIÓN DE LA API
 
 ### TheMealDB API
 
@@ -498,7 +437,7 @@ La aplicación usa TheMealDB (gratis):
 
 ---
 
-## 📱 USAR EN MÓVIL
+## USAR EN MÓVIL
 
 1. En tu computadora ejecuta: `npm run dev`
 2. En móvil, ve a: `http://[TU-IP]:3000`
@@ -507,7 +446,7 @@ La aplicación usa TheMealDB (gratis):
 
 ---
 
-## 🎯 SIGUIENTES PASOS
+## SIGUIENTES PASOS
 
 Después de que funcione:
 
@@ -519,7 +458,7 @@ Después de que funcione:
 
 ---
 
-## ✨ RESUMEN RÁPIDO
+##  RESUMEN RÁPIDO
 
 ```bash
 # 1. Navega a carpeta
@@ -534,12 +473,12 @@ npm run dev
 # 4. Abre navegador
 http://localhost:3000
 
-# ¡LISTO! 🎉
+# ¡LISTO! 
 ```
 
 ---
 
-## 📞 SOPORTE
+##  SOPORTE
 
 Si algo no funciona:
 1. Lee [Solución de problemas](#solución-de-problemas)
@@ -549,4 +488,4 @@ Si algo no funciona:
 
 ---
 
-**¡Ya puedes ejecutar Recipe Finder!** 🍳🎉
+
