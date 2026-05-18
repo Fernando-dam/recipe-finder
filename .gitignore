@@ -1,0 +1,10 @@
+node_modules/
+.next/
+.env.local
+.env.*.local
+*.db
+*.sqlite
+dist/
+build/
+.DS_Store
+.vercel
