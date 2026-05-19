@@ -38,49 +38,7 @@ v18.17.0
 - Reinicia tu computadora
 - Intenta de nuevo
 
----
 
-##  DESCARGAR EL PROYECTO
-
-### Opción A: Desde el ZIP descargado
-
-**Paso 1:** Descarga `TODOS-LOS-PROYECTOS.zip`
-
-**Paso 2:** Descomprime el archivo
-
-**Paso 3:** Dentro encontrarás la carpeta `recipe-finder`
-
-```
-TODOS-LOS-PROYECTOS/
-├── recipe-finder/          ← Este es el que necesitas
-├── workout-logger/
-└── documentacion/
-```
-
----
-
-### Opción B: Desde carpeta local
-
-Si ya tienes los archivos:
-
-```bash
-# Navega a la carpeta
-cd /ruta/a/recipe-finder
-```
-
-Reemplaza `/ruta/a/recipe-finder` con la ruta real en tu computadora.
-
-**Ejemplo Windows:**
-```bash
-cd C:\Users\tuusuario\Descargas\recipe-finder
-```
-
-**Ejemplo Mac/Linux:**
-```bash
-cd ~/Descargas/recipe-finder
-```
-
----
 
 ##  INSTALAR DEPENDENCIAS
 
