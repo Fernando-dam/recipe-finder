@@ -48,15 +48,6 @@ v18.17.0
 - Botón derecho en la carpeta → "Abrir terminal aquí"
 - O: `CTRL + SHIFT + Click derecho` → "Abrir PowerShell aquí"
 
-**Mac:**
-- Abre Terminal
-- Escribe: `cd /ruta/a/recipe-finder`
-
-**Linux:**
-- Botón derecho → "Abrir en terminal"
-- O: `CTRL + ALT + T`
-
----
 
 ### Paso 2: Instalar paquetes
 
@@ -138,11 +129,10 @@ Verás algo como esto:
 En el cuadro de búsqueda, escribe un ingrediente:
 
 **Ejemplos que funcionan:**
-- `chicken` (pollo)
-- `pizza` (pizza)
+- `pollo` (pollo)
 - `pasta` (pasta)
-- `fish` (pescado)
-- `beef` (carne)
+- `pescado` (pescado)
+- `carne` (carne)
 - `vegetable` (verdura)
 
 ---
@@ -153,7 +143,7 @@ En el cuadro de búsqueda, escribe un ingrediente:
 ┌────────────────────────┐
 │ chicken                │
 └────────────────────────┘
-        [Search Button]
+        Buscar
 ```
 
 ---
