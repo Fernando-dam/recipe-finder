@@ -101,12 +101,12 @@ npm run dev
 Verás algo como esto:
 
 ```
-  ▲ Next.js 14.0.0
+   Next.js 14.0.0
 
   - Local:        http://localhost:3000
   - Environments: .env.local
 
-✓ Ready in 2s
+ Ready in 2s
 ```
 
 **Cuando veas "Ready in..." significa que está listo.** 
@@ -133,7 +133,7 @@ En el cuadro de búsqueda, escribe un ingrediente:
 - `pasta` (pasta)
 - `pescado` (pescado)
 - `carne` (carne)
-- `vegetable` (verdura)
+- `verdura` (verdura)
 
 ---
 
